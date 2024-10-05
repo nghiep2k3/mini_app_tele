@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Màu nền nhẹ */
+    color: #333; /* Màu chữ */
+    text-align: center;
+    margin: 0;
+    padding: 50px 20px;
+}
+
+.container {
+    background-color: #ffffff; /* Màu nền trắng cho container */
+    border-radius: 10px; /* Bo góc */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Đổ bóng */
+    padding: 30px;
+    max-width: 500px;
+    margin: auto; /* Giữa trang */
+}
+
+h1 {
+    font-size: 24px; /* Kích thước tiêu đề */
+}
+
+#framButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50; /* Màu nền nút */
+    color: white; /* Màu chữ nút */
+    border: none;
+    border-radius: 5px; /* Bo góc nút */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Hiệu ứng chuyển màu */
+}
+
+#framButton:hover {
+    background-color: #45a049; /* Màu nút khi hover */
+}
+
+#status {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#coins {
+    margin-top: 20px;
+    font-size: 24px;
+}
